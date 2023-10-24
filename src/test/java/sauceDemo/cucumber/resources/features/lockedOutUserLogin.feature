@@ -1,8 +1,8 @@
 Feature: login dengan locked user
 
   Scenario: user login sebagai locked out user
-    Given user berada di saucedemo.com
-    When input username "locked_out_user"
-    And  input password "secret_sauce"
-    And klik pada tombol login
-    Then user akan menerima pesan notifikasi "Epic sadface: Sorry, this user has been locked out."
+    Given user berada di saucedemo.com untuk locked out user
+    When input username untuk locked out user
+    And  input password untuk locked out user
+    And klik pada tombol login untuk locked out user
+    Then user akan menerima pesan notifikasi untuk locked out user
